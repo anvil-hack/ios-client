@@ -11,7 +11,9 @@ import CoreLocation
 
 class SmartRoomViewController: UIViewController {
 
-    fileprivate let beaconManager = ESTBeaconManager()
+    let beaconManager = ESTBeaconManager()
+    let networkManager = SmartRoomNetworkManager()
+    let user: User! = UIApplication.shared.castedDelegate.applicationUser
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,12 +32,17 @@ extension SmartRoomViewController: ESTBeaconManagerDelegate {
     }
     
     func beaconManager(_ manager: Any, didEnter region: CLBeaconRegion) {
+        print("Entered on the region")
+        self.networkManager.analyze(user: self.user, type: .enter)
     }
     
     func beaconManager(_ manager: Any, didExitRegion region: CLBeaconRegion) {
+        print("Exited from the region")
+        self.networkManager.exit(user: self.user)
     }
     
     func beaconManager(_ manager: Any, monitoringDidFailFor region: CLBeaconRegion?, withError error: Error) {
+        print("Error while monitoring beacons: \(error)")
     }
 }
 

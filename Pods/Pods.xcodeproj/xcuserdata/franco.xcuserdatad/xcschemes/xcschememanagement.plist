@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Nimble.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Anvil Hack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -20,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-Anvil HackUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,6 +52,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5EAD26FEFD7C04C3E2C7218C2145C13E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FE661DF72F882A025BF286086BB1F7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>78F21504A703E07A83ECD47CF8705420</key>
 		<dict>
 			<key>primary</key>
@@ -52,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C97E4FD632CD0C56869DD8172863C21E</key>
+		<key>A36BFF98C2180D73BC5056083256C6F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C97E4FD632CD0C56869DD8172863C21E"
+               BlueprintIdentifier = "A36BFF98C2180D73BC5056083256C6F2"
                BuildableName = "Pods_Anvil_HackTests.framework"
                BlueprintName = "Pods-Anvil HackTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C97E4FD632CD0C56869DD8172863C21E"
+            BlueprintIdentifier = "A36BFF98C2180D73BC5056083256C6F2"
             BuildableName = "Pods_Anvil_HackTests.framework"
             BlueprintName = "Pods-Anvil HackTests"
             ReferencedContainer = "container:Pods.xcodeproj">

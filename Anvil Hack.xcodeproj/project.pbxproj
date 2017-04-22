@@ -141,12 +141,12 @@
 				9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */,
 				9D2B60411EAB7D1B00FBB670 /* SmartRoomViewController.swift */,
 				9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */,
+				9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */,
 				9D2B60431EAB7D1B00FBB670 /* Main.storyboard */,
 				9D2B60461EAB7D1B00FBB670 /* Assets.xcassets */,
 				9D2B60481EAB7D1B00FBB670 /* LaunchScreen.storyboard */,
 				9D2B604B1EAB7D1B00FBB670 /* Info.plist */,
 				9D2B606D1EAB810B00FBB670 /* Anvil Hack-Bridging-Header.h */,
-				9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */,
 			);
 			path = "Anvil Hack";
 			sourceTree = "<group>";
