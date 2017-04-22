@@ -26,8 +26,7 @@ platform :ios do
   lane :test do
     scan(scheme:"Anvil Hack",
         code_coverage: true,
-    	derived_data_path: "./DerivedData",
-    	output_directory: "./reports")
+    	  output_directory: "./reports")
   end
 end
 
