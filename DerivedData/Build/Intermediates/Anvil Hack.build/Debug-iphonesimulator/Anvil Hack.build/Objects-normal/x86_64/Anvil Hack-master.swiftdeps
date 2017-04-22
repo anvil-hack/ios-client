@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "da5112c73ac4a8b65bccc7b724916cc9"
+build_time: [546201927, 769295000]
+inputs:
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil Hack/LoginViewController.swift": [546189439, 0]
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil Hack/SmartRoomViewController.swift": [546198400, 0]
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil Hack/AppDelegate.swift": [546185647, 0]
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil Hack/User.swift": [546189051, 0]
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil Hack/AppNavigationController.swift": [546187653, 0]
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil Hack/SmartRoomNetworkManager.swift": [546198038, 0]

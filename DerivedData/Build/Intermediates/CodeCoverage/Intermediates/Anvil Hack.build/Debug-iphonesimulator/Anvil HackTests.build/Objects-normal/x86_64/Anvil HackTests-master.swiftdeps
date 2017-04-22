@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "77cf46dd8e1f99f7d298e2487ba313b8"
+build_time: [546201942, 526527000]
+inputs:
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil HackTests/SmartRoomNetworkManager.swift": [546198144, 0]

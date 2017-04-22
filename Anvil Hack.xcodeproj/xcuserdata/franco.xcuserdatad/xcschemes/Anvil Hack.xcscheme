@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Anvil Hack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9D2B604F1EAB7D1B00FBB670"
+               BuildableName = "Anvil HackTests.xctest"
+               BlueprintName = "Anvil HackTests"
+               ReferencedContainer = "container:Anvil Hack.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "9D2B604F1EAB7D1B00FBB670"
                BuildableName = "Anvil HackTests.xctest"
                BlueprintName = "Anvil HackTests"
-               ReferencedContainer = "container:Anvil Hack.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D2B605A1EAB7D1B00FBB670"
-               BuildableName = "Anvil HackUITests.xctest"
-               BlueprintName = "Anvil HackUITests"
                ReferencedContainer = "container:Anvil Hack.xcodeproj">
             </BuildableReference>
          </TestableReference>

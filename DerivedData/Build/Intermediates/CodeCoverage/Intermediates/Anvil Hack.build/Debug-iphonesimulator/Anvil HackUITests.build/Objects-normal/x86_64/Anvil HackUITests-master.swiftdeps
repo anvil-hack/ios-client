@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "b623dadb2c8717db315584ea4d1ea0a0"
+build_time: [546201180, 851891000]
+inputs:
+  "/Users/franco/XCodeProject/Anvil Hack/Anvil HackUITests/Anvil_HackUITests.swift": [546177563, 0]

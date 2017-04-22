@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "swizzleDefaultSessionConfiguration"
+provides-nominal:
+provides-member:
+- ["CSo23URLSessionConfiguration", ""]
+- ["CSo23URLSessionConfiguration", "mockingjaySwizzleDefaultSessionConfiguration"]
+- ["CSo23URLSessionConfiguration", "mockingjayDefaultSessionConfiguration"]
+- ["CSo23URLSessionConfiguration", "mockingjayEphemeralSessionConfiguration"]
+provides-dynamic-lookup:
+- "mockingjayDefaultSessionConfiguration"
+- "mockingjaySwizzleDefaultSessionConfiguration"
+- "mockingjayEphemeralSessionConfiguration"
+depends-top-level:
+- "class_getClassMethod"
+- !private "Array"
+- "URLSessionConfiguration"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- "swizzleDefaultSessionConfiguration"
+- !private "+"
+- !private "AnyClass"
+- "Void"
+- !private "MockingjayProtocol"
+- "method_exchangeImplementations"
+depends-member:
+- !private ["Ps9AnyObject", "MockingjayProtocol"]
+- ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "ephemeral"]
+- ["Ps9AnyObject", "mockingjayDefaultSessionConfiguration"]
+- ["Ps9AnyObject", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps9AnyObject", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps9AnyObject", "protocolClasses"]
+- !private ["Ps9AnyObject", "swizzleDefaultSessionConfiguration"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "Stride"]
+- !private ["Sa", "_DisallowMixedSignArithmetic"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "Stride"]
+- !private ["Ps23BidirectionalCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "Stride"]
+- !private ["Ps22BidirectionalIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "MockingjayProtocol"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "_DisallowMixedSignArithmetic"]
+- !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "ephemeral"]
+- ["Ps7CVarArg", "mockingjayDefaultSessionConfiguration"]
+- ["Ps7CVarArg", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps7CVarArg", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps7CVarArg", "protocolClasses"]
+- !private ["Ps7CVarArg", "swizzleDefaultSessionConfiguration"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Stride"]
+- !private ["Ps10Collection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "MockingjayProtocol"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "ephemeral"]
+- ["Ps28CustomDebugStringConvertible", "mockingjayDefaultSessionConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "protocolClasses"]
+- !private ["Ps28CustomDebugStringConvertible", "swizzleDefaultSessionConfiguration"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "MockingjayProtocol"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "ephemeral"]
+- ["Ps23CustomStringConvertible", "mockingjayDefaultSessionConfiguration"]
+- ["Ps23CustomStringConvertible", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps23CustomStringConvertible", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "protocolClasses"]
+- !private ["Ps23CustomStringConvertible", "swizzleDefaultSessionConfiguration"]
+- !private ["Ps9Equatable", "MockingjayProtocol"]
+- ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "ephemeral"]
+- ["Ps9Equatable", "mockingjayDefaultSessionConfiguration"]
+- ["Ps9Equatable", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps9Equatable", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps9Equatable", "protocolClasses"]
+- !private ["Ps9Equatable", "swizzleDefaultSessionConfiguration"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Stride"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_DisallowMixedSignArithmetic"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps8Hashable", "MockingjayProtocol"]
+- ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "ephemeral"]
+- ["Ps8Hashable", "mockingjayDefaultSessionConfiguration"]
+- ["Ps8Hashable", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps8Hashable", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps8Hashable", "protocolClasses"]
+- !private ["Ps8Hashable", "swizzleDefaultSessionConfiguration"]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Stride"]
+- !private ["Ps9Indexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Stride"]
+- !private ["Ps13IndexableBase", "_DisallowMixedSignArithmetic"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["C10Mockingjay18MockingjayProtocol", "deinit"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "Stride"]
+- !private ["Ps17MutableCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "Stride"]
+- !private ["Ps16MutableIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["PSo9NSCopying", "MockingjayProtocol"]
+- ["PSo9NSCopying", "default"]
+- ["PSo9NSCopying", "ephemeral"]
+- ["PSo9NSCopying", "mockingjayDefaultSessionConfiguration"]
+- ["PSo9NSCopying", "mockingjayEphemeralSessionConfiguration"]
+- !private ["PSo9NSCopying", "protocolClasses"]
+- !private ["PSo9NSCopying", "swizzleDefaultSessionConfiguration"]
+- !private ["CSo8NSObject", "AnyClass"]
+- !private ["CSo8NSObject", "MockingjayProtocol"]
+- ["CSo8NSObject", "URLSessionConfiguration"]
+- ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "ephemeral"]
+- ["CSo8NSObject", "mockingjayDefaultSessionConfiguration"]
+- ["CSo8NSObject", "mockingjayEphemeralSessionConfiguration"]
+- ["CSo8NSObject", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["CSo8NSObject", "protocolClasses"]
+- !private ["CSo8NSObject", "swizzleDefaultSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "MockingjayProtocol"]
+- ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "ephemeral"]
+- ["PSo16NSObjectProtocol", "mockingjayDefaultSessionConfiguration"]
+- ["PSo16NSObjectProtocol", "mockingjayEphemeralSessionConfiguration"]
+- ["PSo16NSObjectProtocol", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "protocolClasses"]
+- !private ["PSo16NSObjectProtocol", "swizzleDefaultSessionConfiguration"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "Stride"]
+- !private ["Ps22RandomAccessCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "Stride"]
+- !private ["Ps21RandomAccessIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "Stride"]
+- !private ["Ps26RangeReplaceableCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "Stride"]
+- !private ["Ps25RangeReplaceableIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Stride"]
+- !private ["Ps8Sequence", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["CSo23URLSessionConfiguration", "AnyClass"]
+- !private ["CSo23URLSessionConfiguration", "MockingjayProtocol"]
+- ["CSo23URLSessionConfiguration", "URLSessionConfiguration"]
+- ["CSo23URLSessionConfiguration", "default"]
+- ["CSo23URLSessionConfiguration", "deinit"]
+- ["CSo23URLSessionConfiguration", "ephemeral"]
+- ["CSo23URLSessionConfiguration", "mockingjayDefaultSessionConfiguration"]
+- ["CSo23URLSessionConfiguration", "mockingjayEphemeralSessionConfiguration"]
+- ["CSo23URLSessionConfiguration", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["CSo23URLSessionConfiguration", "protocolClasses"]
+- !private ["CSo23URLSessionConfiguration", "swizzleDefaultSessionConfiguration"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "Stride"]
+- !private ["Ps14_ArrayProtocol", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "Stride"]
+- !private ["Ps24_DestructorSafeContainer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps9_Hashable", "MockingjayProtocol"]
+- ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "ephemeral"]
+- ["Ps9_Hashable", "mockingjayDefaultSessionConfiguration"]
+- ["Ps9_Hashable", "mockingjayEphemeralSessionConfiguration"]
+- ["Ps9_Hashable", "mockingjaySwizzleDefaultSessionConfiguration"]
+- !private ["Ps9_Hashable", "protocolClasses"]
+- !private ["Ps9_Hashable", "swizzleDefaultSessionConfiguration"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "C10Mockingjay18MockingjayProtocol"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- "CSo23URLSessionConfiguration"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/franco/XCodeProject/Anvil Hack/Pods/Mockingjay/Mockingjay/Mockingjay.h"
+- "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Mockingjay/Mockingjay-umbrella.h"
+- "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Mockingjay.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/URITemplate/URITemplate.framework/Modules/URITemplate.swiftmodule/x86_64.swiftmodule"
+- "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers/URITemplate-Swift.h"
+- "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/URITemplate/URITemplate-umbrella.h"
+- "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/URITemplate.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "562d6e2ae91d9924ecc9aecb8c35c74d"

@@ -1,0 +1,298 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Mockingjay-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Headers/Mockingjay-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mockingjay-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Mockingjay/Mockingjay-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Mockingjay.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Mockingjay/Mockingjay/Mockingjay.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Mockingjay/Mockingjay.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Mockingjay.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Nimble/Nimble.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CwlCatchException.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlCatchExceptionSupport/include/CwlCatchException.h"
+        },
+        {
+          'type': 'file',
+          'name': "CwlMachBadInstructionHandler.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "CwlPreconditionTesting.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h"
+        },
+        {
+          'type': 'file',
+          'name': "DSL.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/NimbleObjectiveC/DSL.h"
+        },
+        {
+          'type': 'file',
+          'name': "NMBExceptionCapture.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/NimbleObjectiveC/NMBExceptionCapture.h"
+        },
+        {
+          'type': 'file',
+          'name': "NMBStringify.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/NimbleObjectiveC/NMBStringify.h"
+        },
+        {
+          'type': 'file',
+          'name': "Nimble-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Nimble/Nimble.framework/Headers/Nimble-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Nimble-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Nimble/Nimble-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Nimble.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/Nimble/Nimble.h"
+        },
+        {
+          'type': 'file',
+          'name': "mach_excServer.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/Lib/CwlPreconditionTesting/CwlMachBadInstructionHandler/mach_excServer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Nimble/Nimble.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Nimble.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Nimble/Nimble.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CurrentTestCaseTracker.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Nimble/Sources/NimbleObjectiveC/CurrentTestCaseTracker.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Pods_Anvil_Hack.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Anvil Hack-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Pods-Anvil Hack/Pods-Anvil Hack-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Anvil_Hack-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Pods_Anvil_Hack.framework/Headers/Pods_Anvil_Hack-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Pods_Anvil_Hack.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Anvil Hack.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Pods_Anvil_HackTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Anvil HackTests-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Pods-Anvil HackTests/Pods-Anvil HackTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Anvil_HackTests-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Pods_Anvil_HackTests.framework/Headers/Pods_Anvil_HackTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Pods_Anvil_HackTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Anvil HackTests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Quick/Quick.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "QCKDSL.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Quick/Sources/QuickObjectiveC/DSL/QCKDSL.h"
+        },
+        {
+          'type': 'file',
+          'name': "Quick-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Quick/Quick.framework/Headers/Quick-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Quick-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/Quick/Quick-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Quick.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Quick/Sources/QuickObjectiveC/Quick.h"
+        },
+        {
+          'type': 'file',
+          'name': "QuickConfiguration.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Quick/Sources/QuickObjectiveC/Configuration/QuickConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "QuickSpec.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Quick/Sources/QuickObjectiveC/QuickSpec.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Quick/Quick.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/Quick.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "URITemplate-Swift.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/URITemplate/URITemplate.framework/Headers/URITemplate-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "URITemplate-umbrella.h",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/Pods/Target Support Files/URITemplate/URITemplate-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/URITemplate/URITemplate.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Intermediates/Pods.build/Debug-iphonesimulator/URITemplate.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

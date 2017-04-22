@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "177b289049b3af8aa24811f3f319b940"
+build_time: [546201930, 518698000]
+inputs:
+  "/Users/franco/XCodeProject/Anvil Hack/Pods/URITemplate/Sources/URITemplate.swift": [546195225, 0]

@@ -1,0 +1,289 @@
+19:44:03.704 xcodebuild[30271:474484] Beginning test session Anvil HackTests-301114E3-4FCF-4DE0-A107-24DFF0033155 at 2017-04-22 19:44:03.701 with Xcode 8C1002 on target <DVTiPhoneSimulator: 0x7fc1058962c0> {
+		SimDevice: SimDevice : iPhone 5s (181CE2EA-3308-4B6F-A417-7097C5DA439A) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+} (10.2 (14C89))
+19:44:03.704 xcodebuild[30271:474484] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-workspace
+./Anvil Hack.xcworkspace
+-scheme
+Anvil Hack
+-destination
+platform=iOS Simulator,id=181CE2EA-3308-4B6F-A417-7097C5DA439A
+-derivedDataPath
+./DerivedData
+-enableCodeCoverage
+YES
+build
+test
+19:44:03.705 xcodebuild[30271:474484] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+19:44:03.707 xcodebuild[30271:474484] Initializing test infrastructure.
+19:44:03.707 xcodebuild[30271:474495] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Registered for sim device notification, got token 4
+19:44:03.707 xcodebuild[30271:474495] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Unregistering for sim device notification with token 4
+19:44:03.707 xcodebuild[30271:474495] Sim iPhone 5s is booted (state = 3)
+19:44:03.707 xcodebuild[30271:474495] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+19:44:03.708 xcodebuild[30271:474495] Returning /private/tmp/com.apple.launchd.PgOLWN3nw9/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+19:44:03.708 xcodebuild[30271:474495] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.PgOLWN3nw9/com.apple.testmanagerd.unix-domain.socket
+19:44:03.708 xcodebuild[30271:474495] Connected socket 18 to testmanagerd for Sim iPhone 5s
+19:44:03.709 xcodebuild[30271:474495] Creating the test bundle connection.
+19:44:03.710 xcodebuild[30271:474495] Listening for proxy connection request from the test bundle (all platforms)
+19:44:03.710 xcodebuild[30271:474495] Resuming the connection.
+19:44:03.710 xcodebuild[30271:474495] Test connection requires daemon assistance.
+19:44:03.711 xcodebuild[30271:474484] Received Ready from iOSSimulator
+19:44:03.712 xcodebuild[30271:474484] Sending notification: NSConcreteNotification 0x7fc1058b0680 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "181CE2EA-3308-4B6F-A417-7097C5DA439A";
+}}
+19:44:03.819 xcodebuild[30271:474484] Starting test session with ID 301114E3-4FCF-4DE0-A107-24DFF0033155
+19:44:03.819 xcodebuild[30271:474484] Checking test manager availability..., will wait up to 120s
+19:44:10.924 xcodebuild[30271:474864] testmanagerd handled session request.
+19:44:10.924 xcodebuild[30271:474484] Waiting for test process to launch.
+19:44:17.239 xcodebuild[30271:474484] Launch session started, setting a disallow-finish-token on the run operation.
+19:44:17.250 xcodebuild[30271:474484] Received Ready from iOSSimulator
+19:44:17.250 xcodebuild[30271:474484] Sending notification: NSConcreteNotification 0x7fc105ff2300 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "181CE2EA-3308-4B6F-A417-7097C5DA439A";
+}}
+19:44:17.251 xcodebuild[30271:474484] Adding console adaptor <IDEConsoleAdaptor: 0x7fc106440500 'target'> for test session 301114E3-4FCF-4DE0-A107-24DFF0033155.
+19:44:17.256 xcodebuild[30271:474551] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Registered for sim device notification, got token 5
+19:44:17.256 xcodebuild[30271:475524] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Unregistering for sim device notification with token 5
+19:44:17.256 xcodebuild[30271:474484] Received Ready from iOSSimulator
+19:44:17.257 xcodebuild[30271:474484] Sending notification: NSConcreteNotification 0x7fc106408fe0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "181CE2EA-3308-4B6F-A417-7097C5DA439A";
+}}
+19:44:17.258 xcodebuild[30271:474861] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Installing app at path: /Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Anvil Hack.app and options: {
+    CFBundleIdentifier = "easytoast.Anvil-Hack";
+}
+19:44:22.078 xcodebuild[30271:474861] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Installed app at path: /Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Anvil Hack.app and options: {
+    CFBundleIdentifier = "easytoast.Anvil-Hack";
+}
+19:44:22.085 xcodebuild[30271:474861] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Registered for sim device notification, got token 6
+19:44:22.085 xcodebuild[30271:475192] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Unregistering for sim device notification with token 6
+19:44:22.085 xcodebuild[30271:474484] Received Ready from iOSSimulator
+19:44:22.085 xcodebuild[30271:474484] Sending notification: NSConcreteNotification 0x7fc10328f3e0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "181CE2EA-3308-4B6F-A417-7097C5DA439A";
+}}
+19:44:22.231 xcodebuild[30271:474861] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Launching app with identifier: easytoast.Anvil-Hack and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/5z/60xhgk_d1rvgr33xbn6nl3lm0000gp/T/easytoast.Anvil-Hack/90052F22-4CDC-4344-84E5-8CDEA75835E7-30271-00001DBAC4F3741A/%p.profraw";
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Anvil Hack.app/Anvil Hack";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/5z/60xhgk_d1rvgr33xbn6nl3lm0000gp/T/com.apple.dt.XCTest/301114E3-4FCF-4DE0-A107-24DFF0033155/remote-container/tmp/Anvil HackTests-301114E3-4FCF-4DE0-A107-24DFF0033155.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/5z/60xhgk_d1rvgr33xbn6nl3lm0000gp/T/easytoast.Anvil-Hack/90052F22-4CDC-4344-84E5-8CDEA75835E7-30271-00001DBAC4F3741A/%p.profraw";
+    };
+    stderr = "/dev/ttys006";
+    stdout = "/dev/ttys006";
+    "wait_for_debugger" = 0;
+}
+19:44:22.292 xcodebuild[30271:476149] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Launched app with identifier: easytoast.Anvil-Hack (pid = 30882)
+19:44:22.292 xcodebuild[30271:476149] Tracking pid 30882 for simulator <DVTiPhoneSimulator: 0x7fc1058962c0> {
+		SimDevice: SimDevice : iPhone 5s (181CE2EA-3308-4B6F-A417-7097C5DA439A) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+}
+19:44:22.292 xcodebuild[30271:476149] Checking to see if pid 30882 is valid: kill(pid, 0) = 0 (YES, it's still running)
+19:44:22.292 xcodebuild[30271:476149] Setting up DVTNotifyOnProcDeath for pid 30882
+19:44:22.292 xcodebuild[30271:474484] Test process runnable PID is 30882.
+19:44:23.122 xcodebuild[30271:476116] Got proxy channel request from test bundle
+19:44:23.122 xcodebuild[30271:476116] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+19:44:23.122 xcodebuild[30271:476149] Creating secondary transport and connection for whitelisting test process PID.
+19:44:23.122 xcodebuild[30271:476149] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Registered for sim device notification, got token 7
+19:44:23.122 xcodebuild[30271:476149] 181CE2EA-3308-4B6F-A417-7097C5DA439A: Unregistering for sim device notification with token 7
+19:44:23.122 xcodebuild[30271:476149] Sim iPhone 5s is booted (state = 3)
+19:44:23.122 xcodebuild[30271:476149] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+19:44:23.123 xcodebuild[30271:476149] Returning /private/tmp/com.apple.launchd.PgOLWN3nw9/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+19:44:23.123 xcodebuild[30271:476149] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.PgOLWN3nw9/com.apple.testmanagerd.unix-domain.socket
+19:44:23.123 xcodebuild[30271:476149] Connected socket 26 to testmanagerd for Sim iPhone 5s
+19:44:23.123 xcodebuild[30271:476149] Creating the daemon control connection.
+19:44:23.123 xcodebuild[30271:476149] Resuming the secondary connection.
+19:44:23.124 xcodebuild[30271:476149] Whitelisting test process ID 30882
+19:44:10.833 testmanagerd[30437:474985] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, built at Thursday, December 1, 2016 at 9:36:48 PM Greenwich Mean Time
+19:44:23.168 xcodebuild[30271:476149] Got whitelisting response and daemon protocol version 22
+19:44:10.881 testmanagerd[30437:474985] Setting availability state.
+19:44:10.882 testmanagerd[30437:475146] IDE connected over socket 5 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+19:44:10.883 testmanagerd[30437:474985] Posting availability to test bundles...
+19:44:10.884 testmanagerd[30437:475146] Created session with socket 5
+19:44:10.921 testmanagerd[30437:475150] Handled a proxy request from the IDE with session <XCIDESession: 0x7fd2caf00770> proxy <_DTXProxy: 0x7fd2cd102470>
+19:44:10.923 testmanagerd[30437:474985] __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 301114E3-4FCF-4DE0-A107-24DFF0033155 1 5 from client 2E582591-041F-4F77-99D2-1E64C19D0CC3-30271-00001DBACC8C7E0D (/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild)
+19:44:10.923 testmanagerd[30437:475150] __45-[XCTestManager setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fd2caf00770> -> 301114E3-4FCF-4DE0-A107-24DFF0033155
+19:44:10.924 testmanagerd[30437:475150] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+19:44:16.018 testmanagerd[30437:474985] Considering exiting, 0 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session...
+19:44:22.938 testmanagerd[30437:475116] Received new test session connection (-[XCTestManager listener:shouldAcceptNewConnection:])
+19:44:22.939 testmanagerd[30437:474985] Initial orientation 0
+19:44:22.943 testmanagerd[30437:476186] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "easytoast.Anvil-Hack";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 30882;
+    SBMostElevatedStateForProcessID = 8;
+}
+19:44:22.943 testmanagerd[30437:476185] Test session 301114E3-4FCF-4DE0-A107-24DFF0033155 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+19:44:22.943 testmanagerd[30437:476186] Got request for process assertion for pid 30882.
+19:44:22.944 testmanagerd[30437:476183] Test session 301114E3-4FCF-4DE0-A107-24DFF0033155 requested socket (__57-[XCTestManager requestSocketForSessionIdentifier:reply:]_block_invoke)
+19:44:22.944 testmanagerd[30437:476183] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+19:44:22.944 testmanagerd[30437:476186] Created process assertion for pid 30882: <BKSProcessAssertion: 0x7fd2cd107db0>, waiting for response from assertiond.
+19:44:22.944 testmanagerd[30437:476183] Closing IDE connection before sending socket 7 to test host.
+19:44:22.944 testmanagerd[30437:476186] Starting to monitor easytoast.Anvil-Hack
+19:44:22.945 testmanagerd[30437:476183] -[XCIDESession closeIDEConnection:] sending barrier
+19:44:22.945 testmanagerd[30437:474985] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+19:44:22.946 testmanagerd[30437:476186] DTXSocketTransport disconnected
+19:44:22.946 testmanagerd[30437:476188] Got application state update: easytoast.Anvil-Hack (30882) -> 8
+19:44:22.946 testmanagerd[30437:476185] Got reply for process assertion request, success: YES
+19:44:22.946 testmanagerd[30437:475116] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7fd2caf00770>
+19:44:22.946 testmanagerd[30437:475116] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+19:44:23.119 testmanagerd[30437:474985] Sending socket 7 to test host
+19:44:23.120 testmanagerd[30437:475116] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7fd2caf00770>
+19:44:23.120 testmanagerd[30437:475116] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+19:44:23.124 testmanagerd[30437:475116] IDE connected over socket 6 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+19:44:23.124 testmanagerd[30437:475116] Created session with socket 6
+19:44:23.128 testmanagerd[30437:476188] Handled a proxy request from the IDE with session <XCIDESession: 0x7fd2cd309ae0> proxy <_DTXProxy: 0x7fd2cae01ff0>
+19:44:23.129 testmanagerd[30437:476188] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 30882 22
+19:44:23.129 testmanagerd[30437:474985] Set control session <XCIDESession: 0x7fd2cd309ae0> with proto 22 and proxy <_DTXProxy: 0x7fd2cae01ff0>
+19:44:23.177 testmanagerd[30437:474985] Received request to collect crash reports in directories '/Users/franco/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'Anvil Hack', 'xctest'
+19:44:23.178 testmanagerd[30437:474985] Initializing crash report observer for /Users/franco/Library/Logs/DiagnosticReports
+19:44:23.179 testmanagerd[30437:474985] Getting files in /Users/franco/Library/Logs/DiagnosticReports
+19:44:23.283 testmanagerd[30437:474985] Found 442 files in /Users/franco/Library/Logs/DiagnosticReports
+19:44:23.318 testmanagerd[30437:474985] Started monitoring /Users/franco/Library/Logs/DiagnosticReports
+19:44:23.319 testmanagerd[30437:474985] Initializing crash report observer for /Library/Logs/DiagnosticReports
+19:44:23.320 testmanagerd[30437:474985] Getting files in /Library/Logs/DiagnosticReports
+19:44:23.425 testmanagerd[30437:474985] Found 190 files in /Library/Logs/DiagnosticReports
+19:44:23.426 testmanagerd[30437:474985] Started monitoring /Library/Logs/DiagnosticReports
+19:44:22.929 Anvil Hack[30882:476152] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Thursday, December 15, 2016 at 10:52:27 PM Greenwich Mean Time
+19:44:22.930 Anvil Hack[30882:476152] System uptime: 9:05:07
+19:44:22.930 Anvil Hack[30882:476152] Process arguments: (
+    "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/Containers/Bundle/Application/07AD96AA-9446-49AD-9D70-8524789E15D6/Anvil Hack.app/Anvil Hack",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+19:44:22.930 Anvil Hack[30882:476152] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/Containers/Data/Application/9C2BF0A9-6A6F-49D5-B0E7-27AFF519E38F";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.rPLcun4ZHF/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/Containers/Data/Application/9C2BF0A9-6A6F-49D5-B0E7-27AFF519E38F";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.181CE2EA-3308-4B6F-A417-7097C5DA439A.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data";
+    "IPHONE_SIMULATOR_CLASS" = N51;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/Library/Application Support/Simulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/5z/60xhgk_d1rvgr33xbn6nl3lm0000gp/T/easytoast.Anvil-Hack/90052F22-4CDC-4344-84E5-8CDEA75835E7-30271-00001DBAC4F3741A/%p.profraw";
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 5s.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 5s";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/franco";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/franco/Library/Logs/CoreSimulator/181CE2EA-3308-4B6F-A417-7097C5DA439A";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1136;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 640;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone6,1";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = N51;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14C89;
+    "SIMULATOR_RUNTIME_VERSION" = "10.2";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data";
+    "SIMULATOR_UDID" = "181CE2EA-3308-4B6F-A417-7097C5DA439A";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 338.16 - Device: iPhone 5s - Runtime: iOS 10.2 (14C89) - DeviceType: iPhone 5s";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.PgOLWN3nw9/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/franco/Library/Developer/CoreSimulator/Devices/181CE2EA-3308-4B6F-A417-7097C5DA439A/data/Containers/Data/Application/9C2BF0A9-6A6F-49D5-B0E7-27AFF519E38F/tmp";
+    XCInjectBundleInto = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator/Anvil Hack.app/Anvil Hack";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/5z/60xhgk_d1rvgr33xbn6nl3lm0000gp/T/com.apple.dt.XCTest/301114E3-4FCF-4DE0-A107-24DFF0033155/remote-container/tmp/Anvil HackTests-301114E3-4FCF-4DE0-A107-24DFF0033155.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:easytoast.Anvil-Hack[0xe755]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.181CE2EA-3308-4B6F-A417-7097C5DA439A.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/franco/XCodeProject/Anvil Hack/DerivedData/Build/Intermediates/CodeCoverage/Products/Debug-iphonesimulator";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/5z/60xhgk_d1rvgr33xbn6nl3lm0000gp/T/easytoast.Anvil-Hack/90052F22-4CDC-4344-84E5-8CDEA75835E7-30271-00001DBAC4F3741A/%p.profraw";
+}
+19:44:22.931 Anvil Hack[30882:476152] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+19:44:22.936 Anvil Hack[30882:476152] Session ID 301114E3-4FCF-4DE0-A107-24DFF0033155
+19:44:22.936 Anvil Hack[30882:476152] Registering for testmanagerd availability notify post.
+19:44:22.937 Anvil Hack[30882:476152] testmanagerd availability confirmed via notify_get_state.
+19:44:22.937 Anvil Hack[30882:476152] Initiating connection to testmanagerd to request socket for IDE connection.
+19:44:22.937 Anvil Hack[30882:476152] Requesting socket
+19:44:22.943 Anvil Hack[30882:476164] Got daemon protocol version 6
+19:44:23.120 Anvil Hack[30882:476164] Got socket 7 from daemon, making connection to IDE
+19:44:23.120 Anvil Hack[30882:476164] Creating connection with transport
+19:44:23.121 Anvil Hack[30882:476164] Resuming connection
+19:44:23.121 Anvil Hack[30882:476164] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+19:44:23.432 Anvil Hack[30882:476152] -[XCTestDriver _runSuite]
+19:44:23.432 xcodebuild[30271:474484] Starting test plan, clearing initialization timeout timer.
+19:44:23.432 Anvil Hack[30882:476152] Loading test suite...
+19:44:23.437 Anvil Hack[30882:476152] Finished loading test suite, took 0.004s
+19:44:23.437 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testBundleWillStart:]
+19:44:23.437 Anvil Hack[30882:476152] Running suite...
+19:44:23.438 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteWillStart:]
+Test Suite 'All tests' started at 2017-04-22 19:44:23.438
+19:44:23.439 xcodebuild[30271:474861] (LOG ARBITER) Rotating message buffer with 1 messages.
+19:44:23.489 xcodebuild[30271:474497] (LOG ARBITER) Dumping buffered message data; 1 messages.
+19:44:23.492 xcodebuild[30271:474861] (LOG ARBITER) Dumping buffered message data; 0 messages.
+19:44:23.439 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteWillStart:]
+19:44:23.440 xcodebuild[30271:474484] _XCT_testSuite:Anvil HackTests.xctest didStartAt:2017-04-22 18:44:23 +0000
+Test Suite 'Anvil HackTests.xctest' started at 2017-04-22 19:44:23.439
+Test Suite 'SmartRoomNetworkManagerTest' started at 2017-04-22 19:44:23.439
+19:44:23.439 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteWillStart:]
+19:44:23.440 xcodebuild[30271:474484] _XCT_testSuite:SmartRoomNetworkManagerTest didStartAt:2017-04-22 18:44:23 +0000
+19:44:23.440 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testCaseWillStart:] Anvil_HackTests.SmartRoomNetworkManagerTest SmartRoomNetworkManager_tests__When_analyze_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data
+Test Case '-[Anvil_HackTests.SmartRoomNetworkManagerTest SmartRoomNetworkManager_tests__When_analyze_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data]' started.
+19:44:23.441 xcodebuild[30271:474484] _XCT_testCaseDidStartForTestClass:Anvil_HackTests.SmartRoomNetworkManagerTest method:SmartRoomNetworkManager_tests__When_analyze_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data
+Test Case '-[Anvil_HackTests.SmartRoomNetworkManagerTest SmartRoomNetworkManager_tests__When_analyze_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data]' passed (0.047 seconds).
+19:44:23.487 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testCaseDidFinish:]
+19:44:23.489 xcodebuild[30271:474484] _XCT_testCaseDidFinishForTestClass:Anvil_HackTests.SmartRoomNetworkManagerTest method:SmartRoomNetworkManager_tests__When_analyze_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data withStatus:passed duration:0.04715102910995483
+19:44:23.489 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testCaseWillStart:] Anvil_HackTests.SmartRoomNetworkManagerTest SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data
+19:44:23.490 xcodebuild[30271:474484] _XCT_testCaseDidStartForTestClass:Anvil_HackTests.SmartRoomNetworkManagerTest method:SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data
+Test Case '-[Anvil_HackTests.SmartRoomNetworkManagerTest SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data]' started.
+Test Case '-[Anvil_HackTests.SmartRoomNetworkManagerTest SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data]' passed (0.002 seconds).
+19:44:23.491 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testCaseDidFinish:]
+19:44:23.491 xcodebuild[30271:474484] _XCT_testCaseDidFinishForTestClass:Anvil_HackTests.SmartRoomNetworkManagerTest method:SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data withStatus:passed duration:0.001852989196777344
+19:44:23.491 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+Test Suite 'SmartRoomNetworkManagerTest' passed at 2017-04-22 19:44:23.491.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.049 (0.052) seconds
+19:44:23.492 xcodebuild[30271:474484] _XCT_testSuite:SmartRoomNetworkManagerTest didFinishAt:2017-04-22 18:44:23 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.04900401830673218 totalDuration:0.05190795660018921
+19:44:23.492 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+Test Suite 'Anvil HackTests.xctest' passed at 2017-04-22 19:44:23.492.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.049 (0.053) seconds
+Test Suite 'Quick.framework' started at 2017-04-22 19:44:23.493
+19:44:23.494 xcodebuild[30271:474484] _XCT_testSuite:Anvil HackTests.xctest didFinishAt:2017-04-22 18:44:23 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.04900401830673218 totalDuration:0.05326199531555176
+19:44:23.493 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteWillStart:]
+19:44:23.494 xcodebuild[30271:474484] _XCT_testSuite:Quick.framework didStartAt:2017-04-22 18:44:23 +0000
+19:44:23.494 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+Test Suite 'Quick.framework' passed at 2017-04-22 19:44:23.494.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+19:44:23.495 xcodebuild[30271:474484] _XCT_testSuite:Quick.framework didFinishAt:2017-04-22 18:44:23 +0000 runCount:0 withFailures:0 unexpected:0 testDuration:0 totalDuration:0.0007039904594421387
+19:44:23.495 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+Test Suite 'All tests' passed at 2017-04-22 19:44:23.495.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.049 (0.057) seconds
+19:44:23.496 xcodebuild[30271:474484] _XCT_testSuite:All tests didFinishAt:2017-04-22 18:44:23 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.04900401830673218 totalDuration:0.05714499950408936
+19:44:23.496 Anvil Hack[30882:476152] Finished running suite.
+19:44:23.496 Anvil Hack[30882:476152] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+19:44:23.496 xcodebuild[30271:474484] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+19:44:23.496 xcodebuild[30271:474484] _finishWithError:(null) didCancel: 0
