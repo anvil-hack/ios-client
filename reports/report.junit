@@ -2,6 +2,6 @@
 <testsuites name='Anvil HackTests.xctest' tests='2' failures='0'>
   <testsuite name='Anvil_HackTests.SmartRoomNetworkManagerTest' tests='2' failures='0'>
     <testcase classname='Anvil_HackTests.SmartRoomNetworkManagerTest' name='SmartRoomNetworkManager_tests__When_analyze_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data' time='0.021'/>
-    <testcase classname='Anvil_HackTests.SmartRoomNetworkManagerTest' name='SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data' time='0.002'/>
+    <testcase classname='Anvil_HackTests.SmartRoomNetworkManagerTest' name='SmartRoomNetworkManager_tests__When_exit_method_is_called__the_methods_calls_the_right_endpoint_and_contains_the_correct_data' time='0.001'/>
   </testsuite>
 </testsuites>

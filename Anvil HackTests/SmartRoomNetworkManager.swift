@@ -53,7 +53,6 @@ class SmartRoomNetworkManagerTest: QuickSpec {
             context("When exit method is called", {
                 it("the methods calls the right endpoint and contains the correct data", closure: {
                     func builder(request:URLRequest) -> Response {
-                        postData = String.init(data: request.httpBody!, encoding: String.Encoding.utf8)
                         let response = HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: nil, headerFields: nil)!
                         return .success(response, .noContent)
                     }
