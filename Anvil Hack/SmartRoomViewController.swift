@@ -33,12 +33,12 @@ extension SmartRoomViewController: ESTBeaconManagerDelegate {
     
     func beaconManager(_ manager: Any, didEnter region: CLBeaconRegion) {
         print("Entered on the region")
-        self.networkManager.analyze(user: self.user, type: .enter)
+        _ = self.networkManager.analyze(user: self.user, type: .enter)
     }
     
     func beaconManager(_ manager: Any, didExitRegion region: CLBeaconRegion) {
         print("Exited from the region")
-        self.networkManager.exit(user: self.user)
+        _ = self.networkManager.exit(user: self.user)
     }
     
     func beaconManager(_ manager: Any, monitoringDidFailFor region: CLBeaconRegion?, withError error: Error) {

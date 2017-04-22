@@ -10,10 +10,15 @@ target 'Anvil Hack' do
   pod 'Alamofire'
   pod 'SkyFloatingLabelTextField'
 
-  target 'Anvil HackTests' do
-    inherit! :search_paths
+  def testPods
     pod 'Quick'
     pod 'Nimble'
+    pod 'Mockingjay'
+  end
+
+  target 'Anvil HackTests' do
+    inherit! :search_paths
+    testPods
   end
 
   target 'Anvil HackUITests' do

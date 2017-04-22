@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7B31C8E7A23CBFD95ED9709C7BD5F48D'
-               BlueprintName = 'Quick'
+               BlueprintIdentifier = '5BAACC736A5215103E10E2DC0A74FDCD'
+               BlueprintName = 'Mockingjay'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Quick.framework'>
+               BuildableName = 'Mockingjay.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

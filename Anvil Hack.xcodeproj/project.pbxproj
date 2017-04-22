@@ -14,12 +14,12 @@
 		9D2B60451EAB7D1B00FBB670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B60431EAB7D1B00FBB670 /* Main.storyboard */; };
 		9D2B60471EAB7D1B00FBB670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B60461EAB7D1B00FBB670 /* Assets.xcassets */; };
 		9D2B604A1EAB7D1B00FBB670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B60481EAB7D1B00FBB670 /* LaunchScreen.storyboard */; };
-		9D2B60551EAB7D1B00FBB670 /* Anvil_HackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60541EAB7D1B00FBB670 /* Anvil_HackTests.swift */; };
-		9D2B60601EAB7D1B00FBB670 /* Anvil_HackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B605F1EAB7D1B00FBB670 /* Anvil_HackUITests.swift */; };
 		9D2B60721EAB95FA00FBB670 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60711EAB95FA00FBB670 /* User.swift */; };
 		9D2B60741EAB9D7200FBB670 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */; };
 		9D2B60761EAB9E4B00FBB670 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */; };
-		9D2B60781EABABEC00FBB670 /* SmartViewNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */; };
+		9D2B60781EABABEC00FBB670 /* SmartRoomNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60771EABABEC00FBB670 /* SmartRoomNetworkManager.swift */; };
+		9D8FC4A01EABBE900022DBF1 /* SmartRoomNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FC49F1EABBE900022DBF1 /* SmartRoomNetworkManager.swift */; };
+		9D8FC4A21EABBFE40022DBF1 /* Anvil_HackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B605F1EAB7D1B00FBB670 /* Anvil_HackUITests.swift */; };
 		BCD52D3EB14CF5CAA4B4F6E4 /* Pods_Anvil_Hack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9608B7E81AD594D84FD7F945 /* Pods_Anvil_Hack.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,6 @@
 		9D2B60491EAB7D1B00FBB670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2B604B1EAB7D1B00FBB670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D2B60501EAB7D1B00FBB670 /* Anvil HackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anvil HackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D2B60541EAB7D1B00FBB670 /* Anvil_HackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anvil_HackTests.swift; sourceTree = "<group>"; };
 		9D2B60561EAB7D1B00FBB670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D2B605B1EAB7D1B00FBB670 /* Anvil HackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anvil HackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2B605F1EAB7D1B00FBB670 /* Anvil_HackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anvil_HackUITests.swift; sourceTree = "<group>"; };
@@ -64,7 +63,8 @@
 		9D2B60711EAB95FA00FBB670 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
-		9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartViewNetworkManager.swift; sourceTree = "<group>"; };
+		9D2B60771EABABEC00FBB670 /* SmartRoomNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartRoomNetworkManager.swift; sourceTree = "<group>"; };
+		9D8FC49F1EABBE900022DBF1 /* SmartRoomNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartRoomNetworkManager.swift; sourceTree = "<group>"; };
 		BB43B1617A70013A76FC7CC7 /* Pods-Anvil Hack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil Hack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil Hack/Pods-Anvil Hack.debug.xcconfig"; sourceTree = "<group>"; };
 		ED25533B26F5C4C31BA1B2F6 /* Pods-Anvil HackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil HackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil HackUITests/Pods-Anvil HackUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ED97069CC10C43FC6899C8B7 /* Pods_Anvil_HackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anvil_HackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +141,7 @@
 				9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */,
 				9D2B60411EAB7D1B00FBB670 /* SmartRoomViewController.swift */,
 				9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */,
-				9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */,
+				9D2B60771EABABEC00FBB670 /* SmartRoomNetworkManager.swift */,
 				9D2B60431EAB7D1B00FBB670 /* Main.storyboard */,
 				9D2B60461EAB7D1B00FBB670 /* Assets.xcassets */,
 				9D2B60481EAB7D1B00FBB670 /* LaunchScreen.storyboard */,
@@ -154,7 +154,7 @@
 		9D2B60531EAB7D1B00FBB670 /* Anvil HackTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D2B60541EAB7D1B00FBB670 /* Anvil_HackTests.swift */,
+				9D8FC49F1EABBE900022DBF1 /* SmartRoomNetworkManager.swift */,
 				9D2B60561EAB7D1B00FBB670 /* Info.plist */,
 			);
 			path = "Anvil HackTests";
@@ -474,7 +474,7 @@
 				9D2B60401EAB7D1B00FBB670 /* AppDelegate.swift in Sources */,
 				9D2B60721EAB95FA00FBB670 /* User.swift in Sources */,
 				9D2B60761EAB9E4B00FBB670 /* AppNavigationController.swift in Sources */,
-				9D2B60781EABABEC00FBB670 /* SmartViewNetworkManager.swift in Sources */,
+				9D2B60781EABABEC00FBB670 /* SmartRoomNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2B60551EAB7D1B00FBB670 /* Anvil_HackTests.swift in Sources */,
+				9D8FC4A01EABBE900022DBF1 /* SmartRoomNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2B60601EAB7D1B00FBB670 /* Anvil_HackUITests.swift in Sources */,
+				9D8FC4A21EABBFE40022DBF1 /* Anvil_HackUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
