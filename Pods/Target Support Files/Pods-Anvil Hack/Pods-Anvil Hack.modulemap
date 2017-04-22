@@ -1,0 +1,6 @@
+framework module Pods_Anvil_Hack {
+  umbrella header "Pods-Anvil Hack-umbrella.h"
+
+  export *
+  module * { export * }
+}

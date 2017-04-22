@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nYm-kP-KQc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Smart Room View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SmartRoomVC" id="BYZ-38-t0r" customClass="SmartRoomViewController" customModule="Anvil_Hack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="104"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="bcU-gu-vum">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IvR-eY-5yw" customClass="LoginViewController" customModule="Anvil_Hack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MJ4-F2-sOP"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Ck-9U-ouk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d0f-ZM-K4S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oS8-Nw-91N">
+                                <rect key="frame" x="62" y="239" width="250" height="188.5"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtn-vE-8u9" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="39"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="oLz-VN-xYa"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                <color key="value" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                <color key="value" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZS4-nY-KqE" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                        <rect key="frame" x="0.0" y="54" width="250" height="39"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                <color key="value" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                <color key="value" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OH-Jm-kGi">
+                                        <rect key="frame" x="0.0" y="138" width="250" height="50"/>
+                                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="WPX-GW-nHv"/>
+                                        </constraints>
+                                        <state key="normal" title="Submit">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="saveUser:" destination="IvR-eY-5yw" eventType="touchUpInside" id="bcz-pg-dz9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ZS4-nY-KqE" firstAttribute="leading" secondItem="oS8-Nw-91N" secondAttribute="leading" id="2l6-HD-8HH"/>
+                                    <constraint firstItem="4OH-Jm-kGi" firstAttribute="trailing" secondItem="dtn-vE-8u9" secondAttribute="trailing" id="6KN-xi-pi4"/>
+                                    <constraint firstItem="dtn-vE-8u9" firstAttribute="leading" secondItem="oS8-Nw-91N" secondAttribute="leading" id="7mW-EW-8r0"/>
+                                    <constraint firstItem="4OH-Jm-kGi" firstAttribute="top" secondItem="ZS4-nY-KqE" secondAttribute="bottom" constant="45" id="DSN-DI-hYu"/>
+                                    <constraint firstItem="ZS4-nY-KqE" firstAttribute="top" secondItem="dtn-vE-8u9" secondAttribute="bottom" constant="15" id="G0s-oH-09b"/>
+                                    <constraint firstAttribute="trailing" secondItem="dtn-vE-8u9" secondAttribute="trailing" id="OI1-tw-CWr"/>
+                                    <constraint firstItem="4OH-Jm-kGi" firstAttribute="leading" secondItem="dtn-vE-8u9" secondAttribute="leading" id="WEo-8n-5Hf"/>
+                                    <constraint firstAttribute="bottom" secondItem="4OH-Jm-kGi" secondAttribute="bottom" id="aMj-68-hRr"/>
+                                    <constraint firstItem="4OH-Jm-kGi" firstAttribute="centerX" secondItem="oS8-Nw-91N" secondAttribute="centerX" id="bGs-c6-nbw"/>
+                                    <constraint firstItem="dtn-vE-8u9" firstAttribute="top" secondItem="oS8-Nw-91N" secondAttribute="top" id="dhd-bT-fpw"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZS4-nY-KqE" secondAttribute="trailing" id="o7I-fK-SF5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oS8-Nw-91N" firstAttribute="centerY" secondItem="d0f-ZM-K4S" secondAttribute="centerY" id="ViY-fC-cAT"/>
+                            <constraint firstItem="oS8-Nw-91N" firstAttribute="centerX" secondItem="d0f-ZM-K4S" secondAttribute="centerX" id="nEo-8s-nPu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameField" destination="dtn-vE-8u9" id="uPU-DI-AlE"/>
+                        <outlet property="phoneNumberField" destination="ZS4-nY-KqE" id="RP7-Hz-jOF"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="ShowSmartRoomVC" id="R06-ie-Omb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1UA-HE-BQX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-748" y="103.89805097451276"/>
+        </scene>
+        <!--App Navigation Controller-->
+        <scene sceneID="mbA-lv-dRE">
+            <objects>
+                <navigationController id="nYm-kP-KQc" customClass="AppNavigationController" customModule="Anvil_Hack" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="E1j-ei-P08">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UEj-X3-5eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1689" y="104"/>
+        </scene>
+    </scenes>
+</document>

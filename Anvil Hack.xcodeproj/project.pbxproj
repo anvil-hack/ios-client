@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08469DBCCCC99B1EF245724F /* Pods_Anvil_HackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED97069CC10C43FC6899C8B7 /* Pods_Anvil_HackUITests.framework */; };
+		5B3E200B26EEA01AC055A751 /* Pods_Anvil_HackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5407A017493B688A188C0C /* Pods_Anvil_HackTests.framework */; };
+		9D2B60401EAB7D1B00FBB670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B603F1EAB7D1B00FBB670 /* AppDelegate.swift */; };
+		9D2B60421EAB7D1B00FBB670 /* SmartRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60411EAB7D1B00FBB670 /* SmartRoomViewController.swift */; };
+		9D2B60451EAB7D1B00FBB670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B60431EAB7D1B00FBB670 /* Main.storyboard */; };
+		9D2B60471EAB7D1B00FBB670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B60461EAB7D1B00FBB670 /* Assets.xcassets */; };
+		9D2B604A1EAB7D1B00FBB670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B60481EAB7D1B00FBB670 /* LaunchScreen.storyboard */; };
+		9D2B60551EAB7D1B00FBB670 /* Anvil_HackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60541EAB7D1B00FBB670 /* Anvil_HackTests.swift */; };
+		9D2B60601EAB7D1B00FBB670 /* Anvil_HackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B605F1EAB7D1B00FBB670 /* Anvil_HackUITests.swift */; };
+		9D2B60721EAB95FA00FBB670 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60711EAB95FA00FBB670 /* User.swift */; };
+		9D2B60741EAB9D7200FBB670 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */; };
+		9D2B60761EAB9E4B00FBB670 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */; };
+		9D2B60781EABABEC00FBB670 /* SmartViewNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */; };
+		BCD52D3EB14CF5CAA4B4F6E4 /* Pods_Anvil_Hack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9608B7E81AD594D84FD7F945 /* Pods_Anvil_Hack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D2B60511EAB7D1B00FBB670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B60341EAB7D1B00FBB670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2B603B1EAB7D1B00FBB670;
+			remoteInfo = "Anvil Hack";
+		};
+		9D2B605C1EAB7D1B00FBB670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B60341EAB7D1B00FBB670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2B603B1EAB7D1B00FBB670;
+			remoteInfo = "Anvil Hack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5407A017493B688A188C0C /* Pods_Anvil_HackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anvil_HackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		564672D7157EF87754D8F8C0 /* Pods-Anvil HackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil HackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil HackTests/Pods-Anvil HackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64A1897D51E1E8144321A580 /* Pods-Anvil HackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil HackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil HackUITests/Pods-Anvil HackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69C0FD17B93F94DD46B0C461 /* Pods-Anvil Hack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil Hack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil Hack/Pods-Anvil Hack.release.xcconfig"; sourceTree = "<group>"; };
+		7D8B1C7EDE8297566C050D74 /* Pods-Anvil HackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil HackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil HackTests/Pods-Anvil HackTests.release.xcconfig"; sourceTree = "<group>"; };
+		9608B7E81AD594D84FD7F945 /* Pods_Anvil_Hack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anvil_Hack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B603C1EAB7D1B00FBB670 /* Anvil Hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anvil Hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B603F1EAB7D1B00FBB670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D2B60411EAB7D1B00FBB670 /* SmartRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartRoomViewController.swift; sourceTree = "<group>"; };
+		9D2B60441EAB7D1B00FBB670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D2B60461EAB7D1B00FBB670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D2B60491EAB7D1B00FBB670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D2B604B1EAB7D1B00FBB670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B60501EAB7D1B00FBB670 /* Anvil HackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anvil HackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B60541EAB7D1B00FBB670 /* Anvil_HackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anvil_HackTests.swift; sourceTree = "<group>"; };
+		9D2B60561EAB7D1B00FBB670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B605B1EAB7D1B00FBB670 /* Anvil HackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anvil HackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B605F1EAB7D1B00FBB670 /* Anvil_HackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anvil_HackUITests.swift; sourceTree = "<group>"; };
+		9D2B60611EAB7D1B00FBB670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B606D1EAB810B00FBB670 /* Anvil Hack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anvil Hack-Bridging-Header.h"; sourceTree = "<group>"; };
+		9D2B60711EAB95FA00FBB670 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartViewNetworkManager.swift; sourceTree = "<group>"; };
+		BB43B1617A70013A76FC7CC7 /* Pods-Anvil Hack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil Hack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil Hack/Pods-Anvil Hack.debug.xcconfig"; sourceTree = "<group>"; };
+		ED25533B26F5C4C31BA1B2F6 /* Pods-Anvil HackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anvil HackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anvil HackUITests/Pods-Anvil HackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED97069CC10C43FC6899C8B7 /* Pods_Anvil_HackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anvil_HackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D2B60391EAB7D1B00FBB670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD52D3EB14CF5CAA4B4F6E4 /* Pods_Anvil_Hack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2B604D1EAB7D1B00FBB670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3E200B26EEA01AC055A751 /* Pods_Anvil_HackTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2B60581EAB7D1B00FBB670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08469DBCCCC99B1EF245724F /* Pods_Anvil_HackUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C18A1989428033A0823ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB43B1617A70013A76FC7CC7 /* Pods-Anvil Hack.debug.xcconfig */,
+				69C0FD17B93F94DD46B0C461 /* Pods-Anvil Hack.release.xcconfig */,
+				564672D7157EF87754D8F8C0 /* Pods-Anvil HackTests.debug.xcconfig */,
+				7D8B1C7EDE8297566C050D74 /* Pods-Anvil HackTests.release.xcconfig */,
+				64A1897D51E1E8144321A580 /* Pods-Anvil HackUITests.debug.xcconfig */,
+				ED25533B26F5C4C31BA1B2F6 /* Pods-Anvil HackUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D2B60331EAB7D1B00FBB670 = {
+			isa = PBXGroup;
+			children = (
+				9D2B603E1EAB7D1B00FBB670 /* Anvil Hack */,
+				9D2B60531EAB7D1B00FBB670 /* Anvil HackTests */,
+				9D2B605E1EAB7D1B00FBB670 /* Anvil HackUITests */,
+				9D2B603D1EAB7D1B00FBB670 /* Products */,
+				24C18A1989428033A0823ED1 /* Pods */,
+				D2FBFAB03A2DEDEB205A7D33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D2B603D1EAB7D1B00FBB670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B603C1EAB7D1B00FBB670 /* Anvil Hack.app */,
+				9D2B60501EAB7D1B00FBB670 /* Anvil HackTests.xctest */,
+				9D2B605B1EAB7D1B00FBB670 /* Anvil HackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2B603E1EAB7D1B00FBB670 /* Anvil Hack */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B603F1EAB7D1B00FBB670 /* AppDelegate.swift */,
+				9D2B60711EAB95FA00FBB670 /* User.swift */,
+				9D2B60751EAB9E4B00FBB670 /* AppNavigationController.swift */,
+				9D2B60411EAB7D1B00FBB670 /* SmartRoomViewController.swift */,
+				9D2B60731EAB9D7200FBB670 /* LoginViewController.swift */,
+				9D2B60431EAB7D1B00FBB670 /* Main.storyboard */,
+				9D2B60461EAB7D1B00FBB670 /* Assets.xcassets */,
+				9D2B60481EAB7D1B00FBB670 /* LaunchScreen.storyboard */,
+				9D2B604B1EAB7D1B00FBB670 /* Info.plist */,
+				9D2B606D1EAB810B00FBB670 /* Anvil Hack-Bridging-Header.h */,
+				9D2B60771EABABEC00FBB670 /* SmartViewNetworkManager.swift */,
+			);
+			path = "Anvil Hack";
+			sourceTree = "<group>";
+		};
+		9D2B60531EAB7D1B00FBB670 /* Anvil HackTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B60541EAB7D1B00FBB670 /* Anvil_HackTests.swift */,
+				9D2B60561EAB7D1B00FBB670 /* Info.plist */,
+			);
+			path = "Anvil HackTests";
+			sourceTree = "<group>";
+		};
+		9D2B605E1EAB7D1B00FBB670 /* Anvil HackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B605F1EAB7D1B00FBB670 /* Anvil_HackUITests.swift */,
+				9D2B60611EAB7D1B00FBB670 /* Info.plist */,
+			);
+			path = "Anvil HackUITests";
+			sourceTree = "<group>";
+		};
+		D2FBFAB03A2DEDEB205A7D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9608B7E81AD594D84FD7F945 /* Pods_Anvil_Hack.framework */,
+				4D5407A017493B688A188C0C /* Pods_Anvil_HackTests.framework */,
+				ED97069CC10C43FC6899C8B7 /* Pods_Anvil_HackUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D2B603B1EAB7D1B00FBB670 /* Anvil Hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2B60641EAB7D1B00FBB670 /* Build configuration list for PBXNativeTarget "Anvil Hack" */;
+			buildPhases = (
+				1E822C78E919CC6209BB31D4 /* [CP] Check Pods Manifest.lock */,
+				9D2B60381EAB7D1B00FBB670 /* Sources */,
+				9D2B60391EAB7D1B00FBB670 /* Frameworks */,
+				9D2B603A1EAB7D1B00FBB670 /* Resources */,
+				123451A15AE692824D242F4F /* [CP] Embed Pods Frameworks */,
+				6E67319B00FC1CCE0D3D2111 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anvil Hack";
+			productName = "Anvil Hack";
+			productReference = 9D2B603C1EAB7D1B00FBB670 /* Anvil Hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D2B604F1EAB7D1B00FBB670 /* Anvil HackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2B60671EAB7D1B00FBB670 /* Build configuration list for PBXNativeTarget "Anvil HackTests" */;
+			buildPhases = (
+				D123A6409ECE483D47BBD9CB /* [CP] Check Pods Manifest.lock */,
+				9D2B604C1EAB7D1B00FBB670 /* Sources */,
+				9D2B604D1EAB7D1B00FBB670 /* Frameworks */,
+				9D2B604E1EAB7D1B00FBB670 /* Resources */,
+				BCD5E1D2621E1A6CBD9AB61D /* [CP] Embed Pods Frameworks */,
+				6DA70CB569D3F55D8AD38F54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D2B60521EAB7D1B00FBB670 /* PBXTargetDependency */,
+			);
+			name = "Anvil HackTests";
+			productName = "Anvil HackTests";
+			productReference = 9D2B60501EAB7D1B00FBB670 /* Anvil HackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D2B605A1EAB7D1B00FBB670 /* Anvil HackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2B606A1EAB7D1B00FBB670 /* Build configuration list for PBXNativeTarget "Anvil HackUITests" */;
+			buildPhases = (
+				95C0A5B905BA89F89472ADBB /* [CP] Check Pods Manifest.lock */,
+				9D2B60571EAB7D1B00FBB670 /* Sources */,
+				9D2B60581EAB7D1B00FBB670 /* Frameworks */,
+				9D2B60591EAB7D1B00FBB670 /* Resources */,
+				7F4AC363913789A7FD09BDCD /* [CP] Embed Pods Frameworks */,
+				8175566E2B9F18524CD384A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D2B605D1EAB7D1B00FBB670 /* PBXTargetDependency */,
+			);
+			name = "Anvil HackUITests";
+			productName = "Anvil HackUITests";
+			productReference = 9D2B605B1EAB7D1B00FBB670 /* Anvil HackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D2B60341EAB7D1B00FBB670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Franco Meloni";
+				TargetAttributes = {
+					9D2B603B1EAB7D1B00FBB670 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6EWWV8EK98;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					9D2B604F1EAB7D1B00FBB670 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6EWWV8EK98;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D2B603B1EAB7D1B00FBB670;
+					};
+					9D2B605A1EAB7D1B00FBB670 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6EWWV8EK98;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D2B603B1EAB7D1B00FBB670;
+					};
+				};
+			};
+			buildConfigurationList = 9D2B60371EAB7D1B00FBB670 /* Build configuration list for PBXProject "Anvil Hack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D2B60331EAB7D1B00FBB670;
+			productRefGroup = 9D2B603D1EAB7D1B00FBB670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D2B603B1EAB7D1B00FBB670 /* Anvil Hack */,
+				9D2B604F1EAB7D1B00FBB670 /* Anvil HackTests */,
+				9D2B605A1EAB7D1B00FBB670 /* Anvil HackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D2B603A1EAB7D1B00FBB670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B604A1EAB7D1B00FBB670 /* LaunchScreen.storyboard in Resources */,
+				9D2B60471EAB7D1B00FBB670 /* Assets.xcassets in Resources */,
+				9D2B60451EAB7D1B00FBB670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2B604E1EAB7D1B00FBB670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2B60591EAB7D1B00FBB670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123451A15AE692824D242F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anvil Hack/Pods-Anvil Hack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E822C78E919CC6209BB31D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA70CB569D3F55D8AD38F54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anvil HackTests/Pods-Anvil HackTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E67319B00FC1CCE0D3D2111 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anvil Hack/Pods-Anvil Hack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4AC363913789A7FD09BDCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anvil HackUITests/Pods-Anvil HackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8175566E2B9F18524CD384A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anvil HackUITests/Pods-Anvil HackUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C0A5B905BA89F89472ADBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD5E1D2621E1A6CBD9AB61D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anvil HackTests/Pods-Anvil HackTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D123A6409ECE483D47BBD9CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D2B60381EAB7D1B00FBB670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B60741EAB9D7200FBB670 /* LoginViewController.swift in Sources */,
+				9D2B60421EAB7D1B00FBB670 /* SmartRoomViewController.swift in Sources */,
+				9D2B60401EAB7D1B00FBB670 /* AppDelegate.swift in Sources */,
+				9D2B60721EAB95FA00FBB670 /* User.swift in Sources */,
+				9D2B60761EAB9E4B00FBB670 /* AppNavigationController.swift in Sources */,
+				9D2B60781EABABEC00FBB670 /* SmartViewNetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2B604C1EAB7D1B00FBB670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B60551EAB7D1B00FBB670 /* Anvil_HackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2B60571EAB7D1B00FBB670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B60601EAB7D1B00FBB670 /* Anvil_HackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D2B60521EAB7D1B00FBB670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D2B603B1EAB7D1B00FBB670 /* Anvil Hack */;
+			targetProxy = 9D2B60511EAB7D1B00FBB670 /* PBXContainerItemProxy */;
+		};
+		9D2B605D1EAB7D1B00FBB670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D2B603B1EAB7D1B00FBB670 /* Anvil Hack */;
+			targetProxy = 9D2B605C1EAB7D1B00FBB670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D2B60431EAB7D1B00FBB670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D2B60441EAB7D1B00FBB670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D2B60481EAB7D1B00FBB670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D2B60491EAB7D1B00FBB670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D2B60621EAB7D1B00FBB670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D2B60631EAB7D1B00FBB670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2B60651EAB7D1B00FBB670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB43B1617A70013A76FC7CC7 /* Pods-Anvil Hack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6EWWV8EK98;
+				INFOPLIST_FILE = "Anvil Hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "easytoast.Anvil-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anvil Hack/Anvil Hack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D2B60661EAB7D1B00FBB670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C0FD17B93F94DD46B0C461 /* Pods-Anvil Hack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6EWWV8EK98;
+				INFOPLIST_FILE = "Anvil Hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "easytoast.Anvil-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anvil Hack/Anvil Hack-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9D2B60681EAB7D1B00FBB670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564672D7157EF87754D8F8C0 /* Pods-Anvil HackTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6EWWV8EK98;
+				INFOPLIST_FILE = "Anvil HackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "easytoast.Anvil-HackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anvil Hack.app/Anvil Hack";
+			};
+			name = Debug;
+		};
+		9D2B60691EAB7D1B00FBB670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8B1C7EDE8297566C050D74 /* Pods-Anvil HackTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6EWWV8EK98;
+				INFOPLIST_FILE = "Anvil HackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "easytoast.Anvil-HackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anvil Hack.app/Anvil Hack";
+			};
+			name = Release;
+		};
+		9D2B606B1EAB7D1B00FBB670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A1897D51E1E8144321A580 /* Pods-Anvil HackUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6EWWV8EK98;
+				INFOPLIST_FILE = "Anvil HackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "easytoast.Anvil-HackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Anvil Hack";
+			};
+			name = Debug;
+		};
+		9D2B606C1EAB7D1B00FBB670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED25533B26F5C4C31BA1B2F6 /* Pods-Anvil HackUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6EWWV8EK98;
+				INFOPLIST_FILE = "Anvil HackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "easytoast.Anvil-HackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Anvil Hack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D2B60371EAB7D1B00FBB670 /* Build configuration list for PBXProject "Anvil Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2B60621EAB7D1B00FBB670 /* Debug */,
+				9D2B60631EAB7D1B00FBB670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2B60641EAB7D1B00FBB670 /* Build configuration list for PBXNativeTarget "Anvil Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2B60651EAB7D1B00FBB670 /* Debug */,
+				9D2B60661EAB7D1B00FBB670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2B60671EAB7D1B00FBB670 /* Build configuration list for PBXNativeTarget "Anvil HackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2B60681EAB7D1B00FBB670 /* Debug */,
+				9D2B60691EAB7D1B00FBB670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2B606A1EAB7D1B00FBB670 /* Build configuration list for PBXNativeTarget "Anvil HackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2B606B1EAB7D1B00FBB670 /* Debug */,
+				9D2B606C1EAB7D1B00FBB670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D2B60341EAB7D1B00FBB670 /* Project object */;
+}
