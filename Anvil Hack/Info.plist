@@ -53,5 +53,10 @@
 	</array>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Anvil Hack</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

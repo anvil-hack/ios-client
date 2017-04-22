@@ -14,7 +14,7 @@ enum AnalyzeImageRequestType: String {
     case onDemand = "onDemand"
 }
 
-private let defautlBaseURL = "localhost://"
+private let defautlBaseURL = "http://178.62.14.170:4242/"
 
 
 class SmartRoomNetworkManager: SmartRoomNetworkManagerProtocol {

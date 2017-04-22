@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 extension UIApplication {
     var castedDelegate: AppDelegate {
@@ -39,8 +40,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+    var beaconManager = ESTBeaconManager()
+    var center = UNUserNotificationCenter.current()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let options: UNAuthorizationOptions = [.badge, .alert, .sound];
+        
+        center.requestAuthorization(options: options) {
+            (granted, error) in
+            if !granted {
+                print("Something went wrong")
+            }
+        }
+        
         // Override point for customization after application launch.
         return true
     }
@@ -66,7 +78,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 

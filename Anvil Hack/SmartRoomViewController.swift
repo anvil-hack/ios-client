@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import CoreLocation
+import UserNotifications
 
 protocol SmartRoomNetworkManagerProtocol {
     func analyze(user: User, type:AnalyzeImageRequestType) -> DataRequest?
@@ -18,8 +19,9 @@ protocol SmartRoomNetworkManagerProtocol {
 class SmartRoomViewController: UIViewController {
 
     var useBeaconManager = true
-    var beaconManager = ESTBeaconManager()
+    var beaconManager = UIApplication.shared.castedDelegate.beaconManager
     var networkManager: SmartRoomNetworkManagerProtocol = SmartRoomNetworkManager()
+    var center = UNUserNotificationCenter.current()
     var user: User! = UIApplication.shared.castedDelegate.applicationUser
     
     override func viewDidLoad() {
@@ -46,6 +48,7 @@ extension SmartRoomViewController: ESTBeaconManagerDelegate {
     
     func beaconManager(_ manager: Any, didEnter region: CLBeaconRegion) {
         print("Entered on the region")
+        self.notifyUserForRoomEntrance()
         _ = self.networkManager.analyze(user: self.user, type: .enter)
     }
     
@@ -56,6 +59,17 @@ extension SmartRoomViewController: ESTBeaconManagerDelegate {
     
     func beaconManager(_ manager: Any, monitoringDidFailFor region: CLBeaconRegion?, withError error: Error) {
         print("Error while monitoring beacons: \(error)")
+    }
+    
+    private func notifyUserForRoomEntrance() {
+        let content = UNMutableNotificationContent()
+        content.title = "You entered on a smart Room"
+        content.body = "You entered on a smart Room"
+        content.sound = UNNotificationSound.default()
+        
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
+        
+        self.center.add(request, withCompletionHandler: nil)
     }
 }
 
