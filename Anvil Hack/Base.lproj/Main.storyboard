@@ -20,12 +20,33 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJv-sd-xmX">
+                                <rect key="frame" x="62.5" y="208.5" width="250" height="250"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="7M7-Fu-zca"/>
+                                    <constraint firstAttribute="width" constant="250" id="NmV-Mb-bvo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="What there is on the room?">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendAnalyzeRequest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DaP-4M-4K6"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MJv-sd-xmX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PXw-vh-JYn"/>
+                            <constraint firstItem="MJv-sd-xmX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dfL-Gq-Zcx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="49" y="104"/>
+            <point key="canvasLocation" x="48.799999999999997" y="103.89805097451276"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="bcU-gu-vum">

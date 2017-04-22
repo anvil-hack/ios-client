@@ -30,6 +30,10 @@ class SmartRoomViewController: UIViewController {
             self.beaconManager.requestAlwaysAuthorization()
         }
     }
+    
+    @IBAction func sendAnalyzeRequest(_ sender: Any) {
+        _ = self.networkManager.analyze(user: self.user, type: .onDemand)
+    }
 }
 
 extension SmartRoomViewController: ESTBeaconManagerDelegate {
