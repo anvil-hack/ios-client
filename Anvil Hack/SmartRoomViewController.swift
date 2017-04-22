@@ -7,19 +7,28 @@
 //
 
 import UIKit
+import Alamofire
 import CoreLocation
+
+protocol SmartRoomNetworkManagerProtocol {
+    func analyze(user: User, type:AnalyzeImageRequestType) -> DataRequest?
+    func exit(user: User) -> DataRequest?
+}
 
 class SmartRoomViewController: UIViewController {
 
-    let beaconManager = ESTBeaconManager()
-    let networkManager = SmartRoomNetworkManager()
-    let user: User! = UIApplication.shared.castedDelegate.applicationUser
+    var useBeaconManager = true
+    var beaconManager = ESTBeaconManager()
+    var networkManager: SmartRoomNetworkManagerProtocol = SmartRoomNetworkManager()
+    var user: User! = UIApplication.shared.castedDelegate.applicationUser
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.beaconManager.delegate = self
-        self.beaconManager.requestAlwaysAuthorization()
+        if useBeaconManager {
+            self.beaconManager.delegate = self
+            self.beaconManager.requestAlwaysAuthorization()
+        }
     }
 }
 

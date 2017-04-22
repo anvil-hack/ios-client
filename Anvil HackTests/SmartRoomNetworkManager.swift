@@ -42,7 +42,7 @@ class SmartRoomNetworkManagerTest: QuickSpec {
                     
                     let dataRequest = networkManager.analyze(user: testUser, type: .enter)
                     
-                    postData = String.init(data: dataRequest.request!.httpBody!, encoding: String.Encoding.utf8)
+                    postData = String.init(data: dataRequest!.request!.httpBody!, encoding: String.Encoding.utf8)
                     
                     expect(postData).toEventually(contain(["\(networkManager.nameKey)=\(testUser.name)",
                         "\(networkManager.phoneNumberKey)=\(testUser.phoneNumber)",
@@ -65,7 +65,7 @@ class SmartRoomNetworkManagerTest: QuickSpec {
                     
                     let dataRequest = networkManager.exit(user: testUser)
                     
-                    postData = String.init(data: dataRequest.request!.httpBody!, encoding: String.Encoding.utf8)
+                    postData = String.init(data: dataRequest!.request!.httpBody!, encoding: String.Encoding.utf8)
                     
                     expect(postData).toEventually(contain(["\(networkManager.nameKey)=\(testUser.name)",
                         "\(networkManager.phoneNumberKey)=\(testUser.phoneNumber)"]))

@@ -17,7 +17,7 @@ enum AnalyzeImageRequestType: String {
 private let defautlBaseURL = "localhost://"
 
 
-class SmartRoomNetworkManager{
+class SmartRoomNetworkManager: SmartRoomNetworkManagerProtocol {
     private let baseURL: String
     
     let analyzeEndpoint = "analyse"
@@ -31,7 +31,7 @@ class SmartRoomNetworkManager{
         self.baseURL = baseURL
     }
     
-    func analyze(user: User, type:AnalyzeImageRequestType) -> DataRequest {
+    func analyze(user: User, type:AnalyzeImageRequestType) -> DataRequest? {
         let parameters = [self.nameKey: user.name,
                           self.phoneNumberKey: user.phoneNumber,
                           self.typeKey: type.rawValue]
@@ -39,7 +39,7 @@ class SmartRoomNetworkManager{
         return Alamofire.request(self.baseURL + analyzeEndpoint, method: .post, parameters: parameters, encoding: URLEncoding.httpBody)
     }
     
-    func exit(user: User) -> DataRequest {
+    func exit(user: User) -> DataRequest? {
         let parameters = ["userName": user.name,
                           "phone": user.phoneNumber]
         
