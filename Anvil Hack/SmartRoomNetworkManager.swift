@@ -23,7 +23,7 @@ class SmartRoomNetworkManager: SmartRoomNetworkManagerProtocol {
     let analyzeEndpoint = "analyse"
     let exitEndpoint = "exit"
     
-    let nameKey = "userName"
+    let nameKey = "username"
     let phoneNumberKey = "phone"
     let typeKey = "type"
     
